@@ -9,7 +9,7 @@ int main()
     scanf("%c",&c);
     
     for(int i = occurence;k[i];i++)if(k[i] == c)occurence++;
-    printf("\nLength is %d",occurence);
+    printf("\noccurence is %d",occurence);
    
 
     return 0;
